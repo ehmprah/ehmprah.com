@@ -35,9 +35,7 @@ export default {
 
 <style lang="scss">
 .project {
-  display: flex;
-  align-items: center;
-  margin: 2em 0;
+  margin: 4em 0;
 
   &__screenshot {
     margin: 1em;
@@ -56,7 +54,7 @@ export default {
 
   &__heading {
     color: #ff0083;
-    line-height: 1.5em;
+    margin-bottom: 0.5em;
     font-size: 1.5em;
   }
 
@@ -81,6 +79,12 @@ export default {
     &:active {
       transform: scale(0.95);
     }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .project {
+    display: flex;
   }
 }
 </style>

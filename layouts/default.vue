@@ -125,4 +125,13 @@ a:hover {
 p {
   margin-bottom: 1em;
 }
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 </style>

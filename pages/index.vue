@@ -58,11 +58,25 @@
           url="https://geometric-tattoo-generator.com"
           image="/screenshot_geometric_tattoo_generator.png"
         >
-          I love (geometric) tattoos, so I created a generator for those. I wear
-          one spat out by that thing.
+          I love (geometric) tattoos, so I created a generator for those. I
+          <a href="https://geometric-tattoo-generator.com/about">wear one</a>
+          spat out by that thing.
         </Project>
-
-        <!-- TODO add coregrounds -->
+        <Project
+          title="Coregrounds"
+          url="https://github.com/ehmprah/coregrounds"
+          image="/screenshot_coregrounds.png"
+        >
+          A multiplayer tower defense game released on
+          <a href="https://store.steampowered.com/app/649770/Coregrounds/"
+            >Steam</a
+          >
+          in April 2018. Has been shut down by the end of 2018 for many reasons
+          I've outlined in a lengthy
+          <a href="https://frgmnts.blog/f/how-not-to-make-a-game.html"
+            >blog post</a
+          >. The code is open source since then.
+        </Project>
       </div>
 
       <div class="footer">
@@ -76,27 +90,20 @@
 import Project from '~/components/Project.vue';
 import Follow from '~/components/Follow.vue';
 
-// TODO add google analytics
-// TODO set page title
-
 export default {
   components: {
     Follow,
     Project
+  },
+  head() {
+    return {
+      title: 'ehmprah'
+    };
   }
 };
 </script>
 
 <style lang="scss">
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .about {
   width: 80vw;
   max-width: 480px;
