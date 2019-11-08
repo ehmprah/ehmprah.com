@@ -1,0 +1,87 @@
+<template>
+  <ul class="follow">
+    <li>
+      <a href="https://facebook.com/ehmprah">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M18.768 7.465H14.5V5.56c0-.896.594-1.105 1.012-1.105H18.5V.513L14.17.5C10.245.5 9.5 3.438 9.5 5.32v2.144h-3v4h3v12h5v-12h3.85l.418-4z"
+          ></path>
+          <path fill="none" d="M0 0h24v24H0z"></path>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/ehmprah">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M23.444 4.834c-.814.363-1.5.375-2.227.016.938-.562.98-.957 1.32-2.02-.878.522-1.85.9-2.886 1.105-.825-.882-2.006-1.435-3.313-1.435-2.51 0-4.544 2.036-4.544 4.544 0 .356.04.703.118 1.036-3.775-.19-7.124-1.998-9.365-4.748-.39.67-.615 1.452-.615 2.285 0 1.577.802 2.967 2.02 3.782-.745-.027-1.445-.23-2.057-.57v.056c0 2.202 1.566 4.038 3.646 4.456-.668.18-1.37.21-2.055.08.58 1.803 2.257 3.117 4.245 3.154-1.944 1.524-4.355 2.16-6.727 1.88C3.013 19.75 5.4 20.5 7.966 20.5c8.358 0 12.928-6.924 12.928-12.93 0-.197-.003-.392-.012-.587.887-.64 1.953-1.237 2.562-2.15z"
+          ></path>
+          <path fill="none" d="M0 0h24v24H0z"></path>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/ehmprah/">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6.527 21.5h-5v-13h5v13zm-2.51-15h-.03C2.477 6.5 1.5 5.318 1.5 4.02c0-1.33 1.008-2.413 2.547-2.413 1.54 0 2.488 1.118 2.52 2.447-.002 1.3-.98 2.446-2.55 2.446zm11.51 6c-1.105 0-2 .896-2 2v7h-5s.06-12 0-13h5v1.485s1.548-1.443 3.938-1.443c2.962 0 5.062 2.144 5.062 6.304V21.5h-5v-7c0-1.104-.895-2-2-2z"
+          ></path>
+          <path fill="none" d="M0 0h24v24H0z"></path>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</template>
+
+<script>
+export default {
+  name: 'Follow'
+};
+</script>
+
+<style lang="scss">
+ul.follow {
+  padding: 0;
+  list-style-type: none;
+  margin: 0 0 2em;
+  display: flex;
+  justify-content: center;
+  li {
+    margin: 0 0.5em;
+    a {
+      display: block;
+      background: #000;
+      border-radius: 2px;
+      width: 40px;
+      height: 40px;
+      border-bottom: none;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    svg {
+      height: 100%;
+      width: 50%;
+      fill: #dbdbdb;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+</style>

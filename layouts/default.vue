@@ -127,4 +127,8 @@ a:visited:hover,
 a:active:hover {
   border-color: transparent;
 }
+
+p {
+  margin-bottom: 1em;
+}
 </style>
