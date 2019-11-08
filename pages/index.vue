@@ -12,27 +12,57 @@
         </div>
         <Follow />
       </div>
+
       <div class="projects">
         <Project
           title="Core Defense"
           url="https://coredefense.ehmprah.com"
           image="/screenshot_core_defense.png"
         >
-          A tower defense game with permadeath and roguelike progression. You
-          have to defeat 50 increasingly difficult waves without losing your
-          core. Each wave grants you randomly rolled rewards like towers,
-          upgrades, abilities and modules.
+          A tower defense game with permadeath and roguelike progression. Public
+          alpha is planned for early 2020.
         </Project>
         <Project
           title="FRGMNTS"
-          url="https://coredefense.ehmprah.com"
-          image="/screenshot_core_defense.png"
+          url="https://frgmnts.blog"
+          image="/screenshot_frgmnts.png"
         >
-          A tower defense game with permadeath and roguelike progression. You
-          have to defeat 50 increasingly difficult waves without losing your
-          core. Each wave grants you randomly rolled rewards like towers,
-          upgrades, abilities and modules.
+          My personal blog where I write down bite-size fiction and thoughts.
         </Project>
+        <Project
+          title="FRGMNTS Fiction Podcast"
+          url="https://frgmnts.blog/podcast.html"
+          image="/podcast_thumb_wide.png"
+        >
+          I not only write fiction, I also read it to you. If you're into that
+          kind of thing.
+        </Project>
+        <Project
+          title="handbuch-programmieren.de"
+          url="https://handbuch-programmieren.de"
+          image="/screenshot_handbuch_programmieren.png"
+        >
+          I'm writing a free online guidebook (in German) about programming: how
+          to learn it and how to get better at it.
+        </Project>
+        <Project
+          title="programming-guidebook.com"
+          url="https://programming-guidebook.com"
+          image="/screenshot_programming_guidebook.png"
+        >
+          I'm also (slowly) translating said guidebook to English. Why? Because
+          I can!
+        </Project>
+        <Project
+          title="Geometric Tattoo Generator"
+          url="https://geometric-tattoo-generator.com"
+          image="/screenshot_geometric_tattoo_generator.png"
+        >
+          I love (geometric) tattoos, so I created a generator for those. I wear
+          one spat out by that thing.
+        </Project>
+
+        <!-- TODO add coregrounds -->
       </div>
 
       <div class="footer">
@@ -92,6 +122,9 @@ export default {
 .projects {
   width: 80vw;
   max-width: 720px;
+  .project:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 }
 
 .footer {

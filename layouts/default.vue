@@ -111,20 +111,14 @@ html {
 }
 
 a,
-a:visited,
-a:active,
-a:hover,
-a:visited:hover,
-a:active:hover {
+a:hover {
   text-decoration: none;
   transition: all 0.2s;
   border-bottom: 1px solid;
   color: #ff0083;
 }
 
-a:hover,
-a:visited:hover,
-a:active:hover {
+a:hover {
   border-color: transparent;
 }
 

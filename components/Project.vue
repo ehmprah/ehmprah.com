@@ -37,6 +37,22 @@ export default {
 .project {
   display: flex;
   align-items: center;
+  margin: 2em 0;
+
+  &__screenshot {
+    margin: 1em;
+    border: none;
+    display: block;
+    &:hover {
+      border: none;
+    }
+  }
+
+  &__info {
+    text-align: left;
+    margin: 1em;
+    min-width: 50%;
+  }
 
   &__heading {
     color: #ff0083;
@@ -44,22 +60,8 @@ export default {
     font-size: 1.5em;
   }
 
-  &__info {
-    text-align: left;
-  }
-
   &__description {
-    text-align: justify;
     margin: 0 0 1em 0;
-  }
-
-  &__screenshot {
-    border: none;
-    display: block;
-    margin-right: 1.5em;
-    &:hover {
-      border: none;
-    }
   }
 
   &__button {
@@ -70,9 +72,14 @@ export default {
     border: none;
     padding: 0.5em 1em;
     color: white;
+    transition: all 0.2s;
     &:hover {
       border: none;
       color: white;
+      transform: scale(1.05);
+    }
+    &:active {
+      transform: scale(0.95);
     }
   }
 }
