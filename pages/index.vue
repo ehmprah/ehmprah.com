@@ -19,8 +19,7 @@
           url="https://coredefense.ehmprah.com"
           image="/screenshot_core_defense.png"
         >
-          A tower defense game with permadeath and roguelike progression. Public
-          alpha is planned for early 2020.
+          A roguelite tower defense game with a dash of deckbuilding.
         </Project>
         <Project
           title="FRGMNTS"
