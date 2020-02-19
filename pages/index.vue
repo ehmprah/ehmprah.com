@@ -62,6 +62,14 @@
           spat out by that thing.
         </Project>
         <Project
+          title="Textures"
+          url="https://www.shutterstock.com/g/ehmprah?rid=255138645&utm_medium=email&utm_source=ctrbreferral-link"
+          image="/screenshot_texture.jpg"
+        >
+          I love, photograph, collect (and sell) textures and beautiful surfaces
+          I find in nature and urban environments.
+        </Project>
+        <Project
           title="Coregrounds"
           url="https://github.com/ehmprah/coregrounds"
           image="/screenshot_coregrounds.png"
