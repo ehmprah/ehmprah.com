@@ -22,6 +22,14 @@
           A roguelite tower defense game with a dash of deckbuilding.
         </Project>
         <Project
+          title="Climate Revolution"
+          url="https://ehmprah.itch.io/climate-revolution"
+          image="/screenshot_climate_revolution.png"
+        >
+          A card game about building political pressure to solve the climate
+          crisis.
+        </Project>
+        <Project
           title="FRGMNTS"
           url="https://frgmnts.blog"
           image="/screenshot_frgmnts.png"
