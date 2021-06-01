@@ -41,6 +41,7 @@ export default {
     margin: 1em;
     border: none;
     display: block;
+    flex: 1;
     &:hover {
       border: none;
     }
@@ -50,6 +51,7 @@ export default {
     text-align: left;
     margin: 1em;
     min-width: 50%;
+    flex: 1;
   }
 
   &__heading {

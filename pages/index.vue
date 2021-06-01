@@ -5,15 +5,21 @@
         <img class="about__img" src="/ehmprah.png" />
         <h1 class="about__heading">Hi, I'm ehmprah!</h1>
         <div class="about__description">
-          I am a developer of games and things and I write a lot in my free
-          time. I work at
-          <a href="https://twitter.com/sevenval" target="_blank">@sevenval</a>
-          and always on multiple side projects, which you will find below.
+          I am a developer of games and things. I also write fiction and stuff.
         </div>
         <Follow />
       </div>
 
       <div class="projects">
+        <Project
+          title="Thousand Lives"
+          url="https://thousandlives.ehmprah.com"
+          image="/screenshot_thousand_lives.png"
+        >
+          A game as beautiful and unpredictable as life. Navigate what fate
+          throws at you in this minimalist roguelite role playing life
+          simulation. Life is wild and then you die – a thousand times over.
+        </Project>
         <Project
           title="Core Defense"
           url="https://coredefense.ehmprah.com"
@@ -144,9 +150,6 @@ export default {
 .projects {
   width: 80vw;
   max-width: 720px;
-  .project:nth-child(even) {
-    flex-direction: row-reverse;
-  }
 }
 
 .footer {
