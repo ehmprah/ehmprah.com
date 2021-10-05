@@ -12,6 +12,14 @@
 
       <div class="projects">
         <Project
+          title="Blacken Slash"
+          url="https://blackenslash.ehmprah.com"
+          image="/screenshot_blacken_slash.png"
+        >
+          The minimalist love child of turn based tactical and hack, slash and
+          loot games.
+        </Project>
+        <Project
           title="Thousand Lives"
           url="https://thousandlives.ehmprah.com"
           image="/screenshot_thousand_lives.png"
