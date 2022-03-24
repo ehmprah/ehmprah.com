@@ -16,8 +16,8 @@
           url="https://blackenslash.ehmprah.com"
           image="/screenshot_blacken_slash.png"
         >
-          The minimalist love child of turn based tactical and hack, slash and
-          loot games.
+          A nostalgic blast of a tactical hash & slash game. Fight, loot,
+          upgrade, die ... repeat!
         </Project>
         <Project
           title="Thousand Lives"
